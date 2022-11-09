@@ -16,6 +16,7 @@ fruit2Image=loadImage("banana.png")
 fruit3Image=loadImage("pineapple.png")
 fruit4Image=loadImage("Strawberrie.png")
 background1=loadImage("background.gif")
+gameOverImage=loadImage("Game_over.png")
 //gameOverImage=loadImage("gameover.png")
 
 }
@@ -76,7 +77,7 @@ gameState=END;
  enemyG.setVelocityXEach(0)
  fruitG.setVelocityXEach(0)
  sword.addImage(gameOverImage)
- sword.scale=2
+ sword.scale=0.45
  sword.x=300
  sword.y=200
  
